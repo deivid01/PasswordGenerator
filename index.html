@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passowrd generator</title>
+    <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="public/js/script.js" defer></script>
+</head>
+<body>
+
+    <main class="pass-container">
+
+        <header class="pass-header">
+            <div class="pass">
+                <span id="pass">Password will be genreated here</span>
+                <button class="copy" id="copy">Copiar</button>
+            </div>
+        </header>
+        
+
+        <div class="form">
+            <div class="form-control">
+                <label for="len">Passowrd length</label>
+                <input type="number" id="len" value="" min="2" max="30">
+            </div>
+
+            <div class="form-control">
+                <label for="upper">Uppercase</label>
+                <input type="checkbox" id="upper">
+            </div>
+
+            <div class="form-control">
+                <label for="Lower">Lowercase</label>
+                <input type="checkbox" id="lower">
+            </div>
+
+            <div class="form-control">
+                <label for="number">Numbers</label>
+                <input type="checkbox" id="number">
+            </div>
+
+            <div class="form-control">
+                <label for="symbol">Symbols</label>
+                <input type="checkbox" id="symbol">
+            </div>
+
+            <button class="generate" id="generate">Generate passoword</button>
+
+        </div>
+
+    </main>
+</body>
+</html>

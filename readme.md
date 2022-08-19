@@ -5,11 +5,11 @@
 <p align = "center">With this generator, you can generate a powerful password with numbers, symbols, lower letters and upper letter.</p>
 <br>
 <div align="center">
-<img src="public/images/screenshot1.jpg" width = "500px">
+<img src="public/images/screenshot1.JPG" width = "500px">
 </div>
 <br>
 <br>
 <div align="center">
-<img src="public/images/screenshot2.jpg" width = "500px">
+<img src="public/images/screenshot2.JPG" width = "500px">
 </div>
 <br>
